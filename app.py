@@ -11,7 +11,7 @@ st.write("---") # Línea separadora
 # 2. Entrada de Datos (Barra Lateral)
 st.sidebar.header("Tus Datos")
 precio_original = st.sidebar.number_input("el precio €", min_value=0, max_value=1000, value=60)
-descuento = st.sidebar.number_input("la rebaja %", 1.00, 100.0, 1.65)
+descuento = st.sidebar.slider("la rebaja %)", 1.00, 100.00)
 
 # 3. Botón de Cálculo y Lógica
 if st.button("Calcular ahora"):

@@ -31,4 +31,4 @@ if st.button("Calcular ahora"):
     # Extra: Mostrar la fórmula usada (LaTeX)
     st.write("---")
     st.info("Fórmula matemática utilizada:")
-    st.latex(r''' descuento = \frac{precio_original}{descuento/100} ''')
+    st.latex(r''' descuento = \frac{precio.original}{descuento/100} ''')
